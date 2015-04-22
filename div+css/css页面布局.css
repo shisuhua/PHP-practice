@@ -1,0 +1,17 @@
+#box{
+	position:absolute;
+	top:30px;
+	left:100px;
+	width:300px;
+	height:150px;
+ 	overflow:auto;
+	z-index:1;
+	visibility:visible;
+}
+
+/*鼠标移动到页面的链接上时，链接的元素位置向下并向右分别移动一个像素*/
+a:hover{
+	position:relative;
+	top:1px;
+	left:1px;
+}
